@@ -69,6 +69,7 @@ info_person(5,6,name="Jai",age=26,dept="Defence")
 info_person(6,7,name="Ankit",age=28,dept=" CA")
 
 
-#def func(Normal arg, arb positional arg, arb Keyword arg):
+# Format:---
 
+#def func(Normal arg, arb positional arg, arb Keyword arg):
 # func(Normal arg, arb positional arg, arb Keyword arg)

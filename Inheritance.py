@@ -1,25 +1,40 @@
 # Single Inheritance
 
-class Car:
+class Human:
+    a=5
 
+    def __init__(self):
+        self.num_eyes=2
+        self.num_nose=1
+        print("Parent constructor")
+
+    def eat(self):
+        print("I can Eat")
+
+    def work(self):
+        print("I can work")    
+
+class Male(Human):
+
+    def __init__(self):
+        super().__init__()
+        print("Child constructor")
     @staticmethod
-    def start():
-        print("Car Started...")
+    def flirt():
+        print("I can flirt")  
 
-    @staticmethod
-    def stop():
-        print("Car Stoping...")    
+    def work(self): #method overriding
+        super().work() #access parent methods
+        print(super().a) #acess parent attribute/properties
+        # print(super().num_eyes)
+        print("I can code")     
 
-class ToyotaCar(Car):
-    def __init__(self,name):
-        self.name = name
 
-car1 = ToyotaCar("Fortuner")        
-car2 = ToyotaCar("Prius")    
-
-print(car1.start())
-print(car1.stop())
-
+male_1 = Male()
+male_1.eat()           
+male_1.flirt()           
+male_1.work()  
+print(male_1.num_eyes)      
 # Multi-level Inheritance
 
 class Car:
