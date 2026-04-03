@@ -37,7 +37,7 @@ print(f"All (Key,Values) = {student.items()}")#returns all [key,value] pairs as 
 print(f"Specific values = {student.get("subjects")}") #returns the key according the values
 # print(student.pop("class")) #remove and return the removed value
 print(student.clear()) #clear the disctionary reutrn null
-student1=student.copy() #clear the disctionary reutrn null
+student1=student.copy() #copy disctionary to another 
 new_disc = {"phone":"7011******"}
 student.update(new_disc) #inserts the specific items to the dictionary
 print(student)

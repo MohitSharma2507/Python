@@ -11,7 +11,6 @@ import math
 
 # func(height=he,Wall=Wa,weight=we)
 
-
 #PRIME NUMER
 
 # def is_prime(num):
@@ -56,7 +55,4 @@ def calc_days(year,month):
 year=int(input("Enter year : "))
 month = int(input("Enter month : "))
 
-
 print(calc_days(year,month))
-
-
