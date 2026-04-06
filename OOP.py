@@ -91,6 +91,7 @@
 
 # p1 = Person("Tobias")
 # # del p1.name    #Delete properties/attributes
+# del p1.greet    #delete method
 # p1.welcome()
 
 

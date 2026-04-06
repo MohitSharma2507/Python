@@ -74,4 +74,3 @@ class App(LoggerMixin):
     pass
 
 
-class C(B, A)  # 

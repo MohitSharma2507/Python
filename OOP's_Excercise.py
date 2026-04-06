@@ -12,4 +12,4 @@ class Circle:
 
 circle1 = Circle(3)
 print(circle1.circum())
-print(fcircle1.area)
+print(f"{circle1.area}")

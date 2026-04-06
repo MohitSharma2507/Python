@@ -78,7 +78,7 @@ set1={'Ram','Shyam','Jenny'}
 set2={'Jenny','Jiya','Aakash'}
 set3={'Ankur','Ram','Pradeep'}
 
-print(set1.symmetric_difference(set2))
+print(set1.symmetric_difference(set2)) #returns the element except common
 
 
 

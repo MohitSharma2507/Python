@@ -1,5 +1,5 @@
 # when the same operator is allowed to  have different meaning according to context.
-
+# The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
 # Operator & Dunder function
 
 #? a+b  -->    a.__add__(b)

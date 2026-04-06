@@ -1,5 +1,5 @@
 Var_1 =0o12
-Var_2 =0b100
+Var_2 =0b11 
 Var_3 =0x12
 
 print(Var_1)

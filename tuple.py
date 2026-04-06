@@ -29,3 +29,31 @@ print(min(tup1))
 thistuple = ("apple", "banana", "cherry")
 if "apple" in thistuple:
   print("Yes, 'apple' is in the fruits tuple")
+
+
+#   Convert the tuple into a list to be able to change it:
+
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+
+print(x)
+
+# Unpacking a tuple:
+
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+# Join two tuples:
+
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)

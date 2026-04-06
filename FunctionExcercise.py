@@ -8,7 +8,6 @@ import math
 # Wa = int(input("Size of the wall in sq./m : "))
 # he= int(input("Height of the wall : "))
 # we= int(input("Weight of the wall : "))
-
 # func(height=he,Wall=Wa,weight=we)
 
 #PRIME NUMER
